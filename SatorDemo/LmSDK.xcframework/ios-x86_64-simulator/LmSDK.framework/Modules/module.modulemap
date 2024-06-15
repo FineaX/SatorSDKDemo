@@ -1,0 +1,6 @@
+framework module LmSDK {
+  umbrella header "LmSDK.h"
+  export *
+
+  module * { export * }
+}

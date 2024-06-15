@@ -1,0 +1,26 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.9)
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+
+PODFILE CHECKSUM: df6418aaa166f70c3a86c1c59d1d11e38b633de0
+
+COCOAPODS: 1.15.2
