@@ -14,18 +14,18 @@
 		D13441CD2C1D64F100FD9327 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D13441CC2C1D64F100FD9327 /* Base */; };
 		D13441CF2C1D64F300FD9327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13441CE2C1D64F300FD9327 /* Assets.xcassets */; };
 		D13441D22C1D64F300FD9327 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D13441D12C1D64F300FD9327 /* Base */; };
-		D13441DA2C1D658800FD9327 /* LmSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13441D92C1D658800FD9327 /* LmSDK.xcframework */; };
-		D13441DB2C1D658800FD9327 /* LmSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D13441D92C1D658800FD9327 /* LmSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1A5FFE12C20435000983066 /* SatorSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; };
+		D1A5FFE22C20435000983066 /* SatorSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D13441DC2C1D658800FD9327 /* Embed Frameworks */ = {
+		D1A5FFE32C20435000983066 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D13441DB2C1D658800FD9327 /* LmSDK.xcframework in Embed Frameworks */,
+				D1A5FFE22C20435000983066 /* SatorSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +44,7 @@
 		D13441D12C1D64F300FD9327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13441D32C1D64F300FD9327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D13441D92C1D658800FD9327 /* LmSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LmSDK.xcframework; sourceTree = "<group>"; };
+		D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SatorSDK.xcframework; sourceTree = "<group>"; };
 		EB0CAA58D1D111A65EBAB6E2 /* Pods-SatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SatorDemo.release.xcconfig"; path = "Target Support Files/Pods-SatorDemo/Pods-SatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,8 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A5FFE12C20435000983066 /* SatorSDK.xcframework in Frameworks */,
 				1A5AEDB2D08D0B365B4E9D1C /* Pods_SatorDemo.framework in Frameworks */,
-				D13441DA2C1D658800FD9327 /* LmSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +64,7 @@
 		C49B97DDB2719511E64CF241 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */,
 				D13441D92C1D658800FD9327 /* LmSDK.xcframework */,
 				5CC110965F16B54A39EBBE28 /* Pods_SatorDemo.framework */,
 			);
@@ -122,7 +124,7 @@
 				D13441BF2C1D64F100FD9327 /* Frameworks */,
 				D13441C02C1D64F100FD9327 /* Resources */,
 				467986E46CB87077BB4A244A /* [CP] Embed Pods Frameworks */,
-				D13441DC2C1D658800FD9327 /* Embed Frameworks */,
+				D1A5FFE32C20435000983066 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -388,6 +390,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,6 +419,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

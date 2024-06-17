@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import LmSDK
+import SatorSDK
 
 class ViewController: UIViewController {
 
