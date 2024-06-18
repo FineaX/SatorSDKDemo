@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         
         SAISDK.shared.setToken("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDQ3ODYzMjQsImNoYW5uZWxNZW1iZXJJZCI6MTY1MjAsImV4cCI6MTcwNzM3ODMyNCwiaWF0IjoxNzA0Nzg2MzI0LCJjaGFubmVsSWQiOjYsIm1lbWJlcklkIjozMX0.QdEtP7_zYSgwzQnKF89JlHeJyaDFeXdrSwZ7JO1gvcA")
         SAISDK.shared.start()
+        
+        SAISDK.shared.imageCallback = { image in
+            
+        }
     }
 }
 

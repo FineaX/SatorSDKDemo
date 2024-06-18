@@ -263,15 +263,15 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		4R6xpgRqqZ+JAgCu6TVvVvpbhoM=
+		7Qy4b1dG209PpfMKig64/l+5H5E=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		188aXZPaWDmo19Ap3W80S7V8v70=
+		YN7wYId+JjxxhHmoc6YecDYpBy8=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IL/wzsW+HDYlHN9SQaOqz06jW5g=
+		AW7tpC3F8JGns5XXQCBVcBUZYNQ=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -279,11 +279,11 @@
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IL/wzsW+HDYlHN9SQaOqz06jW5g=
+		AW7tpC3F8JGns5XXQCBVcBUZYNQ=
 		</data>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J9ARr0FxW4JQmnkgtySUZWJQQ0Q=
+		nZWqzg9Xhb7zMg/85yl/7Dly5ck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -984,33 +984,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4R6xpgRqqZ+JAgCu6TVvVvpbhoM=
+			7Qy4b1dG209PpfMKig64/l+5H5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			lKf4yCrZWXMx20dOlbtG6R2M/5Do7Rey5Ix+25qpLOw=
+			xH2niVg22C6DJn7ESbY68An46WIt0deSTXb+KoJ3p24=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			188aXZPaWDmo19Ap3W80S7V8v70=
+			YN7wYId+JjxxhHmoc6YecDYpBy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6TOTKHPCn0DceQ7apm3Mm8gbaax/F3SASv15GmIbmQ4=
+			JRZ7Xo5H6d35ZHSddP7rseBVvzu8xNK5gbKly3cO6N8=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IL/wzsW+HDYlHN9SQaOqz06jW5g=
+			AW7tpC3F8JGns5XXQCBVcBUZYNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UhYF4e4wwFjgG6clceh6Y7Xj+WCAtQHrsNx6oSJYJlE=
+			9+6dklXVwD/LT3JBvGPm6ixecnNMC1vcaxK9J9vjl/0=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1028,22 +1028,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IL/wzsW+HDYlHN9SQaOqz06jW5g=
+			AW7tpC3F8JGns5XXQCBVcBUZYNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UhYF4e4wwFjgG6clceh6Y7Xj+WCAtQHrsNx6oSJYJlE=
+			9+6dklXVwD/LT3JBvGPm6ixecnNMC1vcaxK9J9vjl/0=
 			</data>
 		</dict>
 		<key>Modules/SatorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J9ARr0FxW4JQmnkgtySUZWJQQ0Q=
+			nZWqzg9Xhb7zMg/85yl/7Dly5ck=
 			</data>
 			<key>hash2</key>
 			<data>
-			V+P+jj+2XqIEnW7W0xu/fQ1DD/dgQaR0dtbK23CC234=
+			hcuTzgG2nqBjYgcyX8lq2TPZj//WklwqmC15OixlPZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -57,6 +57,8 @@ import _SwiftConcurrencyShims
   public static let shared: SatorSDK.SAISDK
   public func setToken(_ token: Swift.String)
   public func getToken() -> Swift.String?
+  public var resultImage: UIKit.UIImage?
+  public var imageCallback: ((_ image: UIKit.UIImage) -> Swift.Void)?
   public func performOperation(completion: (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   public func start()
   @objc deinit
