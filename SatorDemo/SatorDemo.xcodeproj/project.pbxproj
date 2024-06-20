@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A5AEDB2D08D0B365B4E9D1C /* Pods_SatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC110965F16B54A39EBBE28 /* Pods_SatorDemo.framework */; };
-		D12F96AA2C2174E4005B03DC /* SatorSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; };
-		D12F96AB2C2174E4005B03DC /* SatorSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D12F96B02C217C31005B03DC /* SatorSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; };
+		D12F96B12C217C31005B03DC /* SatorSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5FFDD2C20425400983066 /* SatorSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D13441C62C1D64F100FD9327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13441C52C1D64F100FD9327 /* AppDelegate.swift */; };
 		D13441C82C1D64F100FD9327 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13441C72C1D64F100FD9327 /* SceneDelegate.swift */; };
 		D13441CA2C1D64F100FD9327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13441C92C1D64F100FD9327 /* ViewController.swift */; };
@@ -19,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D12F96AC2C2174E4005B03DC /* Embed Frameworks */ = {
+		D12F96B22C217C31005B03DC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D12F96AB2C2174E4005B03DC /* SatorSDK.xcframework in Embed Frameworks */,
+				D12F96B12C217C31005B03DC /* SatorSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12F96AA2C2174E4005B03DC /* SatorSDK.xcframework in Frameworks */,
+				D12F96B02C217C31005B03DC /* SatorSDK.xcframework in Frameworks */,
 				1A5AEDB2D08D0B365B4E9D1C /* Pods_SatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,7 +124,7 @@
 				D13441BF2C1D64F100FD9327 /* Frameworks */,
 				D13441C02C1D64F100FD9327 /* Resources */,
 				467986E46CB87077BB4A244A /* [CP] Embed Pods Frameworks */,
-				D12F96AC2C2174E4005B03DC /* Embed Frameworks */,
+				D12F96B22C217C31005B03DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

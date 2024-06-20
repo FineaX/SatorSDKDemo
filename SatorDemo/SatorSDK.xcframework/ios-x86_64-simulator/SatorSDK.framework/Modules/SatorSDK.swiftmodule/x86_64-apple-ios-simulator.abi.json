@@ -791,6 +791,53 @@
               },
               {
                 "kind": "Var",
+                "name": "brushColor1",
+                "printedName": "brushColor1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8SatorSDK8SAIStyleC6ColorsV11brushColor1So7UIColorCvpZ",
+                "mangledName": "$s8SatorSDK8SAIStyleC6ColorsV11brushColor1So7UIColorCvpZ",
+                "moduleName": "SatorSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8SatorSDK8SAIStyleC6ColorsV11brushColor1So7UIColorCvgZ",
+                    "mangledName": "$s8SatorSDK8SAIStyleC6ColorsV11brushColor1So7UIColorCvgZ",
+                    "moduleName": "SatorSDK",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "subToolViewBgColor",
                 "printedName": "subToolViewBgColor",
                 "children": [
@@ -923,6 +970,53 @@
                     "declKind": "Accessor",
                     "usr": "s:8SatorSDK8SAIStyleC6ColorsV10textViewbgSo7UIColorCvgZ",
                     "mangledName": "$s8SatorSDK8SAIStyleC6ColorsV10textViewbgSo7UIColorCvgZ",
+                    "moduleName": "SatorSDK",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "colror3B3B42",
+                "printedName": "colror3B3B42",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8SatorSDK8SAIStyleC6ColorsV12colror3B3B42So7UIColorCvpZ",
+                "mangledName": "$s8SatorSDK8SAIStyleC6ColorsV12colror3B3B42So7UIColorCvpZ",
+                "moduleName": "SatorSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8SatorSDK8SAIStyleC6ColorsV12colror3B3B42So7UIColorCvgZ",
+                    "mangledName": "$s8SatorSDK8SAIStyleC6ColorsV12colror3B3B42So7UIColorCvgZ",
                     "moduleName": "SatorSDK",
                     "static": true,
                     "implicit": true,
@@ -1382,6 +1476,23 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "SatorSDK"
       },
       {
         "kind": "Import",
@@ -3959,6 +4070,26 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SatorSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SatorSDK",
         "declAttributes": [
@@ -6955,79 +7086,107 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 950,
+      "length": 8,
+      "value": "0x553CBF"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
       "length": 8,
       "value": "0x606066"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1037,
+      "offset": 1114,
       "length": 8,
       "value": "0x999999"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1114,
+      "offset": 1191,
       "length": 8,
       "value": "0x0C0A18"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1293,
+      "offset": 1268,
+      "length": 8,
+      "value": "0x3B3B42"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1448,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1378,
+      "offset": 1533,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1466,
+      "offset": 1621,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1589,
+      "offset": 1744,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1642,
+      "offset": 1797,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1742,
+      "offset": 1897,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1790,
+      "offset": 1945,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Common\/SAIStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1838,
+      "offset": 1993,
       "length": 4,
       "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 16,
+      "value": "\"transformColor\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/imtest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAICheckModel.swift",
@@ -7311,15 +7470,22 @@
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "Array",
-      "offset": 554,
+      "offset": 582,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAISubToolView.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 698,
       "length": 17,
       "value": "\"icon_xiajiantou\""
     },
@@ -7340,23 +7506,16 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 738,
-      "length": 28,
-      "value": "[\"画笔\", \"选区\", \"擦除\"]"
+      "offset": 678,
+      "length": 37,
+      "value": "[\"画笔\", \"选区\", \"擦除\", \"反选\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 872,
-      "length": 43,
-      "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\"]"
-    },
-    {
-      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecSmudgeRemovalToolView.swift",
-      "kind": "Array",
-      "offset": 942,
-      "length": 64,
-      "value": "[\"icon_huabi_select\", \"icon_xuanqu_select\", \"icon_xiangpi_select\"]"
+      "offset": 788,
+      "length": 62,
+      "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\", \"icon_sec_fanxuan\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Third\/SAIThirdVc+SAICutOutToolView.swift",
@@ -7488,6 +7647,20 @@
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
       "kind": "StringLiteral",
       "offset": 848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 890,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Managers\/SAIAPIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
       "length": 2,
       "value": "\"\""
     },
@@ -8103,23 +8276,72 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "BooleanLiteral",
-      "offset": 932,
+      "offset": 885,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
-      "kind": "StringLiteral",
-      "offset": 15214,
-      "length": 353,
-      "value": "\"kernel vec4 invertColor(__sample s, vec4 inputColor) {\n    vec4 invertedColor = vec4(1.0 - s.rgb, s.a);\n    if (s.a == 0.0) {\n        return vec4(0.0, 0.0, 0.0, 1.0); \/\/ 透明变黑色\n    } else {\n        return vec4(inputColor.rgb, 1.0); \/\/ 其他颜色变白色\n    }\n}\""
+      "kind": "BooleanLiteral",
+      "offset": 915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 985,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1329,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1447,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1565,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1915,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/SAIDoodleView.swift",
       "kind": "StringLiteral",
-      "offset": 16221,
-      "length": 541,
-      "value": "\"kernel vec4 transformColor(__sample s, vec4 inputColor) {\n            vec4 invertedColor = vec4(1.0 - s.rgb, s.a);\n    \/\/ 检测白色像素（RGB都是1.0，并且透明度为1.0）\n     if (s.rgb == vec3(1.0, 1.0, 1.0) && s.a == 1.0) {\n        \/\/ 原本完全透明的像素变为指定颜色\n        return vec4(inputColor.rgb, inputColor.a); \/\/ 使用inputColor的RGB和透明度\n    } else {\n        return vec4(0.0, 0.0, 0.0, 0.0);\n    }\n}\""
+      "offset": 13325,
+      "length": 296,
+      "value": "\"kernel vec4 invertColor(__sample s, vec4 inputColor) {\n    if (s.a == 0.0) {\n        return vec4(0.0, 0.0, 0.0, 1.0); \/\/ 透明变黑色\n    } else {\n        return vec4(inputColor.rgb, 1.0); \/\/ 其他颜色变白色\n    }\n}\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/Second\/SAISecondVc+SAISmudgeremovalToolView.swift",
@@ -8348,21 +8570,21 @@
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2524,
+      "offset": 2575,
       "length": 28,
       "value": "[\"画笔\", \"选区\", \"擦除\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2573,
+      "offset": 2624,
       "length": 43,
       "value": "[\"icon_huabi\", \"icon_xuanqu\", \"icon_xiangpi\"]"
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAISmudgeRemovalToolView.swift",
       "kind": "Array",
-      "offset": 2643,
+      "offset": 2694,
       "length": 64,
       "value": "[\"icon_huabi_select\", \"icon_xuanqu_select\", \"icon_xiangpi_select\"]"
     },
@@ -8533,6 +8755,118 @@
       "offset": 972,
       "length": 9,
       "value": "\"task_id\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
+      "length": 10,
+      "value": "\"imageUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 18,
+      "value": "\"createByMemberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2531,
+      "length": 18,
+      "value": "\"updateByMemberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2610,
+      "length": 10,
+      "value": "\"memberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2644,
+      "length": 9,
+      "value": "\"robotId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 8,
+      "value": "\"linkId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
+      "length": 10,
+      "value": "\"imageUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 18,
+      "value": "\"createByMemberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2531,
+      "length": 18,
+      "value": "\"updateByMemberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2610,
+      "length": 10,
+      "value": "\"memberId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2644,
+      "length": 9,
+      "value": "\"robotId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 8,
+      "value": "\"linkId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5005,
+      "length": 7,
+      "value": "\"imgId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5035,
+      "length": 8,
+      "value": "\"imgUrl\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5005,
+      "length": 7,
+      "value": "\"imgId\""
+    },
+    {
+      "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Models\/SAIReponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5035,
+      "length": 8,
+      "value": "\"imgUrl\""
     },
     {
       "filePath": "\/Users\/77demac\/Desktop\/SAISDK\/SatorSDK\/Sources\/Components\/First\/SAIMaterailVc+SAICanvasToolView.swift",
