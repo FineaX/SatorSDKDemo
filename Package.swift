@@ -20,8 +20,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SatorSDK",
-            url: "https://github.com/FineaX/SatorSDKDemo/releases/download/1.0.1/SatorSDK.xcframework.zip",
+            url:"https://github.com/FineaX/SatorSDKDemo/releases/download/1.0.1/SatorSDK.xcframework.zip",
             checksum: "b9a7139cd27f13c135beaabf915f364d094041a58785d51c3032a394c0651b5e"
         )
     ]
 )
+
